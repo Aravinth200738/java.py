@@ -1,4 +1,4 @@
-public class Main
+1.public class Main
 {
 	public static int MECH(int a1)
 	{
@@ -24,3 +24,21 @@ public class Main
 	 	  MECH(5);
 	}
 }
+
+
+
+2.class Main { 
+static void fun(int n) 
+{ 
+	if (n > 0) 
+	{ 
+	System.out.print(n + " "); 
+	fun(n - 1); 
+	} 
+} 
+public static void main(String[] args) 
+{ 
+	int x = 8; 
+	fun(x); 
+} 
+} 
